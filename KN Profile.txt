@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaushik Neogi - Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            color: #1a202c;
+            font-weight: 700;
+        }
+        h2 {
+            color: #2d3748;
+            font-weight: 600;
+            border-bottom: 2px solid #edf2f7;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .section-content {
+            margin-bottom: 1.5rem;
+        }
+        .experience-item, .education-item {
+            background-color: #f7fafc;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border: 1px solid #e2e8f0;
+        }
+        .experience-item h3, .education-item h3 {
+            color: #2c5282;
+            font-weight: 600;
+        }
+        .experience-item p, .education-item p {
+            color: #4a5568;
+            font-size: 0.9rem;
+        }
+        .skill-badge {
+            background-color: #e0f2fe;
+            color: #0c4a6e;
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+            display: inline-block;
+        }
+        /* Removed .link-icon styling as images are replaced with emojis */
+    </style>
+</head>
+<body class="p-4">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl mb-2">Kaushik Neogi</h1>
+            <p class="text-xl text-gray-600">Dedicated Business Professional</p>
+            <p class="text-md text-gray-500">Delhi-NCR, India</p>
+        </header>
+
+        <!-- Contact Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Contact</h2>
+            <div class="section-content grid grid-cols-1 md:grid-cols-2 gap-4">
+                <p class="text-gray-700">
+                    📞 +91-8587990226 (Work)
+                </p>
+                <p class="text-gray-700">
+                    📧 <a href="mailto:kaushikneogi.work@gmail.com" class="text-blue-600 hover:underline">kaushikneogi.work@gmail.com</a>
+                </p>
+                <p class="text-gray-700">
+                    🔗 <a href="https://www.linkedin.com/in/kaushik-neogi/" target="_blank" class="text-blue-600 hover:underline">LinkedIn Profile</a>
+                </p>
+                <p class="text-gray-700">
+                    🏅 <a href="https://www.credly.com/users/kaushik-neogi" target="_blank" class="text-blue-600 hover:underline">Credly Profile</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Summary Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Summary</h2>
+            <div class="section-content text-gray-700 leading-relaxed">
+                <p class="mb-2">Helping you create new channels and processes for growth. And, in optimisation of existing #resources & systems.</p>
+                <p class="mb-2">Assisting businesses and individuals spearhead digital transformation.</p>
+                <p class="mb-2">Offering full range of solutions for branding, marketing, advertising & sales. Having an interest in legal, tourism, advertising, marketing, energy and business-related sectors.</p>
+                <p>Planning, implementation, tracking and return management on digital web based assets for brand development.</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Experience</h2>
+            <div class="section-content">
+                <div class="experience-item">
+                    <h3>Intel Corporation</h3>
+                    <p>Community Member Intel Liftoff Program for AI Startups</p>
+                    <p>November 2024 - Present (6 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Kneogin Igmisarch became part of the Intel Liftoff Program in November 2024. Access to various resources & benefits for developing and improving our solutions with Intel Software, Hardware and Solutions from Intel Open Ecosystem & Partners.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Intel Corporation</h3>
+                    <p>Gold Partner</p>
+                    <p>January 2021 - Present (4 years 4 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Intel Corporation</h3>
+                    <p>Registered Partner CIP & Technology Provider</p>
+                    <p>June 2019 - Present (5 years 11 months)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>SAP</h3>
+                    <p>Member SAP® PartnerEdge® Open Ecosystem</p>
+                    <p>August 2024 - Present (9 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">August end kneogin igmisarch private limited got accepted into the SAP® PartnerEdge® Open Ecosystem as an official member. This will help us get access to industry leading technologies built by SAP like the SAP BTP & ERP to integrate with kivtechs.cloud</p>
+                </div>
+                <div class="experience-item">
+                    <h3>LetsStartUp</h3>
+                    <p>Startup Mentor</p>
+                    <p>July 2023 - Present (1 year 10 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Pro Bono Mentorship for startups part of the SIDBI Delhi NCR Innovation Cluster.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>LetsStartUp</h3>
+                    <p>Start-up Member</p>
+                    <p>April 2023 - Present (2 years 1 month)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Kneogin Igmisarch is registered startup on the Delhi-NCR innovation cluster Platform by SIDBI.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>BlackBerry</h3>
+                    <p>Solution Provider</p>
+                    <p>February 2023 - Present (2 years 3 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">We are pleased to be accepted as a solutions provider in the BlackBerry partner network. We will now have capabilities to service our clients & users with state-of-art cybersecurity protection with the access to BlackBerry portfolio of solutions & services.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Google</h3>
+                    <p>EMM Program Participant</p>
+                    <p>August 2022 - Present (2 years 9 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Kneogin Igmisarch gets Google Authorization to Develop & Integrate an EMM Solution with Android Enterprise. Solution currently in early development stages. Contract on a 6 Month Access for Solution Validation. Expected February of 2023.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Google</h3>
+                    <p>Registered Partner</p>
+                    <p>May 2019 - Present (6 years)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Ingram Micro</h3>
+                    <p>Channel Partner</p>
+                    <p>July 2022 - Present (2 years 10 months)</p>
+                    <p class="text-sm text-gray-600 mt-2">Distributor channel partner, (Reseller | CSP | VAR | Systems Integrator). For IBM, Intel, Microsoft, Samsung, Acer, LG, Asus, Lenovo, Dell, AWS, Apple & More.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Samsung Knox</h3>
+                    <p>Bronze Partner</p>
+                    <p>February 2021 - Present (4 years 3 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Member Level, Industry: Security. Now Kneogin Igmisarch Has Attained All 3 Expert Level Certifications From Samsung. While, Our Solution Is In Early Development & Expected Within 6 Months.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Wix.com</h3>
+                    <p>Agency Partner</p>
+                    <p>May 2020 - Present (5 years)</p>
+                    <p>Ghaziabad</p>
+                    <p class="text-sm text-gray-600 mt-2">Agency partners using amazing Wix offerings for us and our clients.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Amazon Web Services (AWS)</h3>
+                    <p>Registered Partner</p>
+                    <p>June 2019 - Present (5 years 11 months)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>GoDaddy</h3>
+                    <p>Pro Member</p>
+                    <p>January 2019 - Present (6 years 4 months)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Microsoft</h3>
+                    <p>Registered Partner</p>
+                    <p>August 2019 - Present (5 years 9 months)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Microsoft</h3>
+                    <p>Business Partner</p>
+                    <p>June 2021 - June 2022 (1 year 1 month)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Developing Custom Solutions on Microsoft Platforms & Helping Clients Implement Microsoft Products & Services for Greater Productivity & Efficient Digital Readiness for the Future. Optimising Present & Future Customer Satisfaction to Derive Maximum Positive Business Outcomes.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>IBM</h3>
+                    <p>Registered Business Partner</p>
+                    <p>June 2019 - Present (5 years 11 months)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>IBM</h3>
+                    <p>Silver Business Partner</p>
+                    <p>August 2020 - June 2023 (2 years 11 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Unfortunately after 3 years of maintaining the Silver Level Membership to IBM Partner Plus our Membership has been Downgraded due to certain pending certification & product development delays for potential Embedded solutions agreement from our end. We @ Kneogin Igmisarch are actively working to meet the certification criteria & get the Market Ready MVP version of our Solution based on IBM Cloud & IBM Watson. validated at the earliest</p>
+                </div>
+                <div class="experience-item">
+                    <h3>APC by Schneider Electric</h3>
+                    <p>Select Partner - Business Networks</p>
+                    <p>April 2019 - Present (6 years 1 month)</p>
+                    <p>India</p>
+                    <p class="text-sm text-gray-600 mt-2">IT Re-seller.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>NEW WAVE INDIA CREATIVE LABS SOLAR AND RETAIL</h3>
+                    <p>Proprietor</p>
+                    <p>June 2018 - Present (6 years 11 months)</p>
+                    <p>Ghāziābād Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>KNEOGIN IGMISARCH PRIVATE LIMITED</h3>
+                    <p>Founding Director</p>
+                    <p>June 2018 - Present (6 years 11 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Start-up Venture. Feel free to get in touch! Contact@kneoginigmisarch.co.in</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Startup India</h3>
+                    <p>Maarg Mentor</p>
+                    <p>September 2022 - March 2025 (2 years 7 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Probono and voluntary participation to guide and assist startups & professionals.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>MeitY- nasscom Center of Excellence</h3>
+                    <p>Incubated Startup (Techwizards Club)</p>
+                    <p>October 2023 - October 2024 (1 year 1 month)</p>
+                    <p>Gurugram, Haryana, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Kneogin Igmisarch has been selected to be incubated under the Virtual Incubation Program of the Incubator.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>JSSATE-STEP, Noida</h3>
+                    <p>Incubated Startup</p>
+                    <p>January 2023 - September 2024 (1 year 9 months)</p>
+                    <p class="text-sm text-gray-600 mt-2">Kneogin Igmisarch is currently incubated under hybrid incubation program @ JSS STEP Noida.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>OVHcloud</h3>
+                    <p>Startup Program Participant</p>
+                    <p>May 2023 - May 2024 (1 year 1 month)</p>
+                    <p class="text-sm text-gray-600 mt-2">Kneogin Igmisarch Private Limited was part of the OVH Cloud Startup Program.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Wadhwani Foundation</h3>
+                    <p>Incubated Startup</p>
+                    <p>July 2023 - October 2023 (4 months)</p>
+                    <p>Ghaziabad, Uttar Pradesh, India</p>
+                    <p class="text-sm text-gray-600 mt-2">Kneogin Igmisarch is one of the selected startups for the 14 week virtual acceleration program under LiftOff Cohort 7.1 Virtual Acceleration Program for Startups in association with Wadhwani Foundation and ISBA under SIDBI Cluster Intervention Program. This would be great pureplay networking, technical & consultation boost. Fast-tracking the journey for us to reach "Market Ready MVP" from our current "Pre-Alpha MVP Testing & Development" Phase.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>everythingdopey.com</h3>
+                    <p>Founding Editor</p>
+                    <p>May 2017 - May 2018 (1 year 1 month)</p>
+                    <p>India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>www.letindiachange.in</h3>
+                    <p>Founder</p>
+                    <p>September 2016 - October 2017 (1 year 2 months)</p>
+                    <p>India</p>
+                    <p class="text-sm text-gray-600 mt-2">India's First Cause-Oriented Networking Site. Made to Help Eradicate Social and Professional Problems In India.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Hammurabi & Solomon</h3>
+                    <p>Legal Intern</p>
+                    <p>July 2017 - July 2017 (1 month)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Huntfactor.com Adventures</h3>
+                    <p>Intern</p>
+                    <p>June 2016 - June 2016 (1 month)</p>
+                    <p class="text-sm text-gray-600 mt-2">Worked as a content development intern. Did Write on adventure sports & tourism and other travel destinations. Also worked on a tribute series to explorers and adventurers.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Amc Advocates & Solicitors</h3>
+                    <p>Summer Legal Intern</p>
+                    <p>June 2015 - July 2015 (2 months)</p>
+                    <p>New Delhi Area, India</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Law Chambers, Advocate Dushyant Arora</h3>
+                    <p>Summer Legal Intern</p>
+                    <p>July 2014 - July 2014 (1 month)</p>
+                    <p class="text-sm text-gray-600 mt-2">Did research relating to civil & consumer laws. Worked in the field relating to criminal & consumer matters.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Education</h2>
+            <div class="section-content">
+                <div class="education-item">
+                    <h3>West Bengal National University of Juridical Sciences</h3>
+                    <p>Diploma, Entrepreneurship Administration and Business Law (February 2016 - March 2017)</p>
+                </div>
+                <div class="education-item">
+                    <h3>Guru Gobind Singh Indraprastha University</h3>
+                    <p>Bachelor of Laws - LLB, Law (2013-2018)</p>
+                </div>
+                <div class="education-item">
+                    <h3>Delhi Metropolitan Education</h3>
+                    <p>LL.B (Hons.), Bachelor of Laws (Honours) [Five Year Integrated Law Degree Programme], Law (2013-2018)</p>
+                </div>
+                <div class="education-item">
+                    <h3>Delhi University</h3>
+                    <p>Bachelor of Arts (B.A.), Political science (Hons.) (2012-2013)</p>
+                </div>
+                <div class="education-item">
+                    <h3>Shaheed Bhagat Singh College</h3>
+                    <p>Bachelor of Arts (BA) [Hons. , Political Science (2012-2013)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Top Skills Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Top Skills</h2>
+            <div class="section-content">
+                <span class="skill-badge">Cloud Security</span>
+                <span class="skill-badge">Cyberlaw</span>
+                <span class="skill-badge">Leading Edge Technologies</span>
+            </div>
+        </section>
+
+        <!-- Languages Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Languages</h2>
+            <div class="section-content">
+                <span class="skill-badge">English (Professional Working)</span>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Certifications</h2>
+            <div class="section-content">
+                <span class="skill-badge">Enterprise Design Thinking Practitioner</span>
+                <span class="skill-badge">Intel Cloud Business Professional – Certified Pro</span>
+                <span class="skill-badge">Cloud Security Architect and Engineer Fundamentals</span>
+                <span class="skill-badge">IBM Z Security</span>
+                <span class="skill-badge">Data Science for Business - Level 1</span>
+                <span class="skill-badge">Selling IoT Solutions</span>
+                <span class="skill-badge">AI in the Cloud</span>
+                <span class="skill-badge">Cloud DevOps</span>
+                <span class="skill-badge">Principles of AI Software & Ecosystem</span>
+                <span class="skill-badge">Endpoint Security</span>
+                <span class="skill-badge">Video Ads: Buying and Tradeoffs</span>
+                <span class="skill-badge">Google Marketing Platform and Google Ad Manager</span>
+                <span class="skill-badge">G Suite Deployment and Customer Success Services</span>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section class="mb-8">
+            <h2 class="text-2xl">Publications</h2>
+            <div class="section-content text-gray-700 leading-relaxed">
+                <ul class="list-disc list-inside">
+                    <li class="mb-1">Structuring advice to an entrepreneur from Middle East who wants to expand his business to India.</li>
+                    <li class="mb-1">Why you shouldn't go on your Leh bike tour</li>
+                    <li class="mb-1">Now you can turn your black money white legally</li>
+                    <li class="mb-1">Liability of joint venture partners.</li>
+                    <li class="mb-1">Companies that should essentially have articles of association.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="text-center text-gray-500 text-sm mt-8 pt-4 border-t border-gray-200">
+            <p>&copy; 2025 Kaushik Neogi. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
